@@ -3,6 +3,7 @@
 ## Distribuição GNU/Linux
 
 ![Imagem 01 do projeto](img/01-img-01.png)
+
 **Sistema operacional:** Debian GNU/Linux 13 (trixie)
 **Versão completa:** 13.7 
 **Explicação:** Essas informações nos permitem identificar o nome da distribuição
@@ -18,6 +19,7 @@ Na imagem tbm podemos ver informações sobre o kernel dos sistema, o kernel é 
 ## Tempo de atividade
 **Comando Uptime** 
 ![Imagem 02 do projeto](img/01-img-02.png)
+
 Ao executar o comando uptime podemos acessar informações como há quanto tempo a maquina está ligada, o número de usuários e o load average que mostra a carga média de uso do sistema
 
 **Tempo de atividade:** 6 horas e 30 minutos
@@ -28,6 +30,7 @@ Ao executar o comando uptime podemos acessar informações como há quanto tempo
 ## Memória RAM e Swap
 **Comando:** free -h
 ![Imagem 03 do projeto](img/01-img-3.png)
+
 Esse comando permitiu visualizar informações sobre a memória RAM e swap, na imagem podemos ver  a  memória total disponível e a swap
 que é um local onde é armazenada uma parte da memória RAM que é usada para  acelerar o sistema essa memória pode ser recuperada caso necessário
 
@@ -41,6 +44,7 @@ que é um local onde é armazenada uma parte da memória RAM que é usada para  
 ## Sistemas de arquivos
 **Comando:** df-h
 ![Imagem 04 do projeto](img/01-img-04.png)
+
 Esse comando permite visualizar o uso de espaço de sistemas de arquivo montados.
 podemos ver o disco principal e o particionamento bem como o tamanho total do disco e seu uso
 
@@ -54,6 +58,7 @@ Montado em: /
 ## Dispositivos de armazenamento
 **Comando** lsblk
 ![Imagem 05 do projeto](img/01-img-05.png)
+
 Nesse comando podemos visualizar os dispositivos de armazenamento do sistema
 o sda sifnifica o disco inteiro enquanto o sda1 é a partição e sda5 é a primeira partição lógica criada dentro de uma partição estendida
 
@@ -65,6 +70,7 @@ o sda sifnifica o disco inteiro enquanto o sda1 é a partição e sda5 é a prim
 ## Rede
 **Comando:** ip addr
 ![Imagem 06 do projeto](img/01-img-06-ipaddr.png)
+
 Nesse comando podemos visualizar informações de rede do sistema como o localhost que é refere-se a própria maquina e a enp0s3 que é a interface de rede.
 
 **lo:** Interface de loopback
@@ -77,6 +83,7 @@ Nesse comando podemos visualizar informações de rede do sistema como o localho
 ## Dispositivos PCI relevantes 
 **Comando** lspci
 ![Imagem 07 do Projeto](img/01-img-07-lspci.png)
+
 Nesse comando podemos visualizar os dispositivos conectados ao barramento PCI como rede, video, áudio e SATA
 
 **Rede:** Intel 82540em Ggabit Ethernet controler
@@ -87,11 +94,13 @@ Nesse comando podemos visualizar os dispositivos conectados ao barramento PCI co
 ## Dispositivos USB 
 **Comando** lsusb
 ![Imagem 08 do proijeto](img/01-img-08-lsusb.png)
+
 Nesse comando podemos visualizar dispositivos USB reconhecidos pelo sistema 
 
 ## Módulos do Kernel
 **Comando** lsmod
 ![Imagem 08 do projeto](img/01-img-09-lsmod.png)
+
 Nesse comando podemos visualizar os módulos do Kernel que são componentes que podem ser carregados no sistema
 para acrescentar uma funcionalidade
 
