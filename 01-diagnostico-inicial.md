@@ -10,6 +10,7 @@
 bem como a sua versão completa instalada.
 
 ## Kernel 
+
 **Hostname:** debian-lab-1
 **Release do Kernel:** 6.12.10+deb13-amd64
 **Arquitetura:** x86_64
@@ -17,7 +18,9 @@ bem como a sua versão completa instalada.
 Na imagem tbm podemos ver informações sobre o kernel dos sistema, o kernel é o responsavel por gerenciar alguns recursos do sistema, é importante não confundir A distribuição com o kernel apesar de trabalharem juntas não são a mesma coisa, o kernel possui sua propria versão, na imagem também podemos ver sua arquitetura e o hostname da VM em questão.
 
 ## Tempo de atividade
-**Comando Uptime** 
+
+**Comando:** ` Uptime`
+ 
 ![Imagem 02 do projeto](img/01-img-02.png)
 
 Ao executar o comando uptime podemos acessar informações como há quanto tempo a maquina está ligada, o número de usuários e o load average que mostra a carga média de uso do sistema
@@ -28,8 +31,10 @@ Ao executar o comando uptime podemos acessar informações como há quanto tempo
 
 
 ## Memória RAM e Swap
-**Comando:** free -h
-![Imagem 03 do projeto](img/01-img-3.png)
+
+**Comando:** ` free -h`
+
+![Imagem 03 do projeto](img/01-img-03.png)
 
 Esse comando permitiu visualizar informações sobre a memória RAM e swap, na imagem podemos ver  a  memória total disponível e a swap
 que é um local onde é armazenada uma parte da memória RAM que é usada para  acelerar o sistema essa memória pode ser recuperada caso necessário
@@ -42,7 +47,9 @@ que é um local onde é armazenada uma parte da memória RAM que é usada para  
 **Swap utilizada:** 0B
 
 ## Sistemas de arquivos
-**Comando:** df-h
+
+**Comando:**` df-h`
+
 ![Imagem 04 do projeto](img/01-img-04.png)
 
 Esse comando permite visualizar o uso de espaço de sistemas de arquivo montados.
@@ -56,11 +63,13 @@ Uso: 19%
 Montado em: /
 
 ## Dispositivos de armazenamento
-**Comando** lsblk
+
+**Comando:** ` lsblk`
+
 ![Imagem 05 do projeto](img/01-img-05.png)
 
 Nesse comando podemos visualizar os dispositivos de armazenamento do sistema
-o sda sifnifica o disco inteiro enquanto o sda1 é a partição e sda5 é a primeira partição lógica criada dentro de uma partição estendida
+o sda significa o disco inteiro enquanto o sda1 é a partição e sda5 é a primeira partição lógica criada dentro de uma partição estendida
 
 **Sda:** disco de 30.9G
 **Sda1:** partição de 29.2G montada em /
@@ -68,8 +77,10 @@ o sda sifnifica o disco inteiro enquanto o sda1 é a partição e sda5 é a prim
 **Sr0:**  dispositivo do tipo ROM
 
 ## Rede
-**Comando:** ip addr
-![Imagem 06 do projeto](img/01-img-06-ipaddr.png)
+
+**Comando:** ` ip addr`
+
+![Imagem 06 do projeto](img/01-img-06.png)
 
 Nesse comando podemos visualizar informações de rede do sistema como o localhost que é refere-se a própria maquina e a enp0s3 que é a interface de rede.
 
@@ -80,9 +91,11 @@ Nesse comando podemos visualizar informações de rede do sistema como o localho
 **192.168.1.28** Endereço IPv4 da vm
 **/24:** Prefixo da rede 
 
-## Dispositivos PCI relevantes 
-**Comando** lspci
-![Imagem 07 do Projeto](img/01-img-07-lspci.png)
+## Dispositivos PCI relevantes
+ 
+**Comando**` lspci`
+
+![Imagem 07 do Projeto](img/01-img-07.png)
 
 Nesse comando podemos visualizar os dispositivos conectados ao barramento PCI como rede, video, áudio e SATA
 
@@ -91,15 +104,19 @@ Nesse comando podemos visualizar os dispositivos conectados ao barramento PCI co
 **Àudio:**Intel AC'97 audio controller
 **SATA:** Intel ich8m SATA controller
 
-## Dispositivos USB 
-**Comando** lsusb
-![Imagem 08 do proijeto](img/01-img-08-lsusb.png)
+## Dispositivos USB
+ 
+**Comando**` lsusb`
+
+![Imagem 08 do proijeto](img/01-img-08.png)
 
 Nesse comando podemos visualizar dispositivos USB reconhecidos pelo sistema 
 
 ## Módulos do Kernel
-**Comando** lsmod
-![Imagem 08 do projeto](img/01-img-09-lsmod.png)
+
+**Comando:**` lsmod`
+
+![Imagem 08 do projeto](img/01-img-09.png)
 
 Nesse comando podemos visualizar os módulos do Kernel que são componentes que podem ser carregados no sistema
 para acrescentar uma funcionalidade
