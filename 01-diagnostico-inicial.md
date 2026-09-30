@@ -1,6 +1,4 @@
-# Parte -1 **Comando de validação:** `grep-E '
-
-Diagnostico inicial do Servidor Techlab
+# Parte -1 Diagnostico inicial do Servidor Techlab
 
 ## Distribuição GNU/Linux
 
