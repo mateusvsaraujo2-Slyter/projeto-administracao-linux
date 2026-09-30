@@ -15,7 +15,7 @@ bem como a sua versão completa instalada.
 **Release do Kernel:** 6.12.10+deb13-amd64
 **Arquitetura:** x86_64
 
-Na imagem tbm podemos ver informações sobre o kernel dos sistema, o kernel é o responsavel por gerenciar alguns recursos do sistema, é importante não confundir A distribuição com o kernel apesar de trabalharem juntas não são a mesma coisa, o kernel possui sua propria versão, na imagem também podemos ver sua arquitetura e o hostname da VM em questão.
+Na imagem também  podemos ver informações sobre o kernel do  sistema, o kernel é o responsável por gerenciar alguns recursos do sistema, é importante não confundir a  distribuição com o kernel apesar de trabalharem juntas não são a mesma coisa, o kernel possui sua propria versão, na imagem também podemos ver sua arquitetura e o hostname da VM em questão.
 
 ## Tempo de atividade
 
@@ -23,10 +23,10 @@ Na imagem tbm podemos ver informações sobre o kernel dos sistema, o kernel é 
  
 ![Imagem 02 do projeto](img/01-img-02.png)
 
-Ao executar o comando uptime podemos acessar informações como há quanto tempo a maquina está ligada, o número de usuários e o load average que mostra a carga média de uso do sistema
+Ao executar o comando Uptime podemos acessar informações, como há quanto tempo a maquina está ligada, o número de usuários e o load average que mostra a carga média de uso do sistema
 
-**Tempo de atividade:** 6 horas e 30 minutos
-**Usuários/sessões:** 2
+**Tempo de atividade:** 11  horas e 21 minutos
+**Usuários/sessões:** 1
 **Load average:8** 0.00, 0.00, 0.00
 
 
@@ -39,7 +39,7 @@ Ao executar o comando uptime podemos acessar informações como há quanto tempo
 Esse comando permitiu visualizar informações sobre a memória RAM e swap, na imagem podemos ver  a  memória total disponível e a swap
 que é um local onde é armazenada uma parte da memória RAM que é usada para  acelerar o sistema essa memória pode ser recuperada caso necessário
 
-**RAM total:** 3.8GiB
+**RAM total:** 3.8 GiB
 **RAM utilizada:** 1.1 GiB
 **RAM livre:** 2.1 GiB
 **RAm disponivel:** 2.7 GiB
