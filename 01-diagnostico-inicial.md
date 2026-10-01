@@ -1,4 +1,4 @@
-# Parte -1 Diagnostico inicial do Servidor Techlab
+# Parte 1 - Diagnostico inicial do Servidor Techlab
 
 ## Distribuição GNU/Linux
 

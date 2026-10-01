@@ -1,4 +1,4 @@
-# Parte -2 Estrutura de diretórios da Techlab
+# Parte 2 - Estrutura de diretórios da Techlab
 
 ## Diretório Principal
 
