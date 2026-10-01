@@ -34,10 +34,10 @@ Sudo chmod g+s adiciona o setgid que faz com que os diretório que serão criado
 **Comandos utilizados** 
 
 ```bash
-sudo chgrp suporte/srv/techlab/suporte
+sudo chgrp suporte /srv/techlab/suporte
 sudo chmod 775 /srv/techlab/suporte
 sudo chmod g+s /srv/techlab/suporte 
-
+``` 
 Os comandos assim como em desenvolvimento permitiram alterar o grupo proprietário e definir as permissões e adicionar o setgid
 
 ## 3. Diretório administração
