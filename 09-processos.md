@@ -20,7 +20,7 @@ O PID (Process ID) é um número utilizado pelo sistema operacional para identif
 
 ### Evidência 
 
-![identificação de processo e PID](img/09-01.png)
+![identificação de processo e PID](img/09-img-01.png)
 
 
 ## 2. Encerramento de processos 
