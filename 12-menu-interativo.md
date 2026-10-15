@@ -25,7 +25,6 @@ O menu permite:
 
 Também foi implementado um tratamento para opções inválidas, exibindo a mensagem `Opção inválida!` quando o usuário informa uma opção não reconhecida.
 
-Também foi implementado um tratamento para opções inválidas.
 
 ## 4. Conceitos utilizados
 
@@ -38,15 +37,15 @@ Também foi implementado um tratamento para opções inválidas.
 
 ## 5. Evidências
 
-### Evidência 01 — Código-fonte
+### Evidência 01 — Consulta de informações, erro e espaço em disco
 
 ![Código do menu interativo](img/12-img-01.png)
 
-### Evidência 02 — Execução das funcionalidades
+### Evidência 02 — Geração do relatório, tratamento de erro e encerramento
 
 ![Execução das opções do menu](img/12-img-02.png)
 
-### Evidência 03 — Geração do relatório e encerramento
+### Evidência 03 — Código fonte corrigido
 
 ![Relatório e encerramento do programa](img/12-img-03.png)
 
