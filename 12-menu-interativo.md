@@ -15,11 +15,15 @@ Desenvolver um menu interativo em Bash para facilitar a execução de tarefas ad
 
 O menu permite:
 
+O menu permite:
+
 1. Consultar informações do servidor;
-2. Verificar a utilização da memória RAM;
-3. Consultar a quantidade de erros do log;
+2. Consultar erros no log;
+3. Consultar espaço em disco;
 4. Gerar o relatório do servidor;
 5. Encerrar o programa.
+
+Também foi implementado um tratamento para opções inválidas, exibindo a mensagem `Opção inválida!` quando o usuário informa uma opção não reconhecida.
 
 Também foi implementado um tratamento para opções inválidas.
 
@@ -48,11 +52,22 @@ Também foi implementado um tratamento para opções inválidas.
 
 ## 6. Testes realizados
 
-Foram testadas as opções 1, 2, 3, 4, 9 e 0.
+O script `menu-techlab.sh` foi executado no terminal do Debian GNU/Linux 13 para verificar o funcionamento de todas as opções.
 
-O menu apresentou corretamente as informações solicitadas, identificou 10 registros de erro, executou o script de relatório e tratou uma opção inválida.
+| Opção testada | Resultado observado |
+|---|---|
+| 1 — Informações do servidor | Exibiu o hostname `debian-lab-1`, a versão do kernel e o tempo de atividade do sistema. |
+| 2 — Consultar erros no log | Consultou o arquivo `acessos.log` e identificou 10 ocorrências de `ERRO`. |
+| 3 — Consultar espaço em disco | Executou `df -h` e apresentou o espaço utilizado e disponível nos sistemas de arquivos. |
+| 4 — Gerar relatório | Executou o script de relatório e informou o arquivo `/tmp/relatorio-servidor.md`. |
+| 9 — Opção inválida | Exibiu a mensagem `Opção inválida!` e retornou ao menu. |
+| 5 — Sair | Exibiu `Saindo do programa...` e encerrou a execução do script. |
 
-A estrutura de repetição manteve o menu disponível até a seleção da opção 0.
+Durante os testes, foi observado que a estrutura `while` manteve o menu em execução após cada operação, até que a opção `5` fosse selecionada.
+
+O comando `read` recebeu as escolhas do usuário e a estrutura `case` direcionou a execução para cada funcionalidade.
+
+**Resultado:** as opções do menu foram executadas conforme o comportamento esperado. A validação detalhada do conteúdo do relatório será apresentada na documentação da Parte 11.
 
 ## 7. Conclusão
 
